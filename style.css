@@ -7,7 +7,7 @@ html {
 }
 
 .background-image {
-    background-image: url('./images/plaatje.jpg');
+    background-image: url('./images/plaatje.JPG');
     background-size: cover;
     background-position: center;
     height: 100%;
