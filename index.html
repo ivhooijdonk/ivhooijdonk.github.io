@@ -5,47 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullscreen Image with Centered Title</title>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-    </nav>
     <nav class="navbar">
         <div class="navbar_container">
             <a href="/" id="navbar_logo">Next</a>
-            <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links">
-                        Home
-                    </a>
-                <li class="navbar_item">
-                    <a href="tech.html" class="navbar_links">
-                        Tech
-                    </a>
-                    </a>
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links">
-                        Products
-                    </a>
-                    </a>
-                <li class="navbar_btn">
-                    <a href="/" class="button">
-                        Contact
-                    </a>
-                </li>
-            </ul>
+
         </div>
+        <a href="javascript:void(0);" class="icon" onclick="openCloseMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
-    <nav class="achtergrond">
-        <div class="achtergrondfoto">
-            <img src="images/plaatje.JPG" alt="">
-        </div>
+    <ul id="navbar_menu" class="navbar_menu" style="display: none;">
+        <li class="navbar_item">
+            <a href="/" class="navbar_links">
+                Home
+            </a>
+        <li class="navbar_item">
+            <a href="#tech" class="navbar_links">
+                Tech
+        
+            </a>
+        <li class="navbar_item">
+            <a href="/" class="navbar_links">
+                Products
+        
+            </a>
+        <li class="navbar_item">
+            <a href="#contact" class="navbar_links">
+                Contact
+            </a>
+        </li>
+    </ul>
+    <div class="background-image"></div>
+    <div class="chapters">
+        <div id="tech" class="chapter">Tech</div>
+        <div id="contact" class="chapter">Contact</div>
+    </div>
 </body>
 
 </html>
