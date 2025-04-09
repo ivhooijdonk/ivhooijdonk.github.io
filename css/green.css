@@ -35,9 +35,9 @@ p, .heading-title > span, .process-wrapp li > .pro-step,
 section{
     position: relative;
 }
-.gradient_bg{
+/* .gradient_bg{
     background: #9bd230;
-}
+} */
 .gradient_bg_default{
     background: #00bcd4;
 }
