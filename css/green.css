@@ -39,12 +39,12 @@ section{
     background: #9bd230;
 }
 .gradient_bg_default{
-    background: #00bcd4;
+    background: #273A1E;
 }
 
 /*heading Titles */
 .heading-title > span{
-    color: #00bcd4;
+    color: #273A1E;
 }
 .whitecolor.heading-title > span{
     color: #fff;
@@ -377,7 +377,7 @@ ul.social-icons.white li a:focus{
 	cursor: url(../images/openhand.cur), move;
 }
 .rev_slider li.rev_gradient::after {
-   background: #9bd230; 
+   background: none; 
 }
 .banner-overlay::after {
    background: rgba(0,0,0,.39);

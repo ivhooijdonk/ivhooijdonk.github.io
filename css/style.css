@@ -570,11 +570,11 @@ ul.social-icons.white li a:focus{
    opacity: 0; visibility: hidden;
 }
 .scndry-gradient-hvr::before {
-    background: -webkit-linear-gradient(90deg, #00e4ce 31%, #00abc9 69%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(31%, #00e4ce), color-stop(69%, #00abc9));
-    background: -webkit-linear-gradient(left, #00e4ce 31%, #00abc9 69%);
-    background: -o-linear-gradient(left, #00e4ce 31%, #00abc9 69%);
-    background: linear-gradient(90deg, #00e4ce 31%, #00abc9 69%);
+    background: -webkit-linear-gradient(90deg, #E8BC98 31%, #E8BC98 69%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(31%, #00e4ce), color-stop(69%, #E8BC98));
+    background: -webkit-linear-gradient(left, #E8BC98 31%, #E8BC98 69%);
+    background: -o-linear-gradient(left, #E8BC98 31%, #E8BC98 69%);
+    background: linear-gradient(90deg, #E8BC98 31%, #E8BC98 69%);
 }
 .btn-gradient-hvr:hover::before,
 .btn-gradient-hvr:focus::before,
@@ -587,7 +587,7 @@ ul.social-icons.white li a:focus{
    border-color: #643094;
 }
 .scndry-gradient-hvr:hover, .scndry-gradient-hvr:focus {
-   border-color: #00bcd4;
+   border-color: #E8BC98;
 }
 
 .btnwhite-hole, .btnwhite:hover, .btnwhite:focus,
