@@ -391,7 +391,10 @@ ul.social-icons.white li a:focus{
 /*-------------------------------*/
     /* Horizontal Half Blocks*/
 /*-------------------------------*/
-.half-section .img-container{}
+.half-section .img-container{
+
+}
+
 .half-section .imgone{
     background: url("../images/split-img1.jpg") no-repeat;
 }

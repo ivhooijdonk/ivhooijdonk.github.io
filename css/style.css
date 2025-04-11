@@ -389,6 +389,11 @@ a.image{
    -webkit-border-radius: 50%;
    border-radius: 50%;
 }
+.tp-caption.tp-resizeme {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 50 !important;
+}
 .back-top-visible {
    -webkit-transform: scale(1);
    -ms-transform: scale(1);
@@ -502,7 +507,7 @@ ul.social-icons.white li a:focus{
    border-radius: 0;
 }
 .btnprimary, .btnprimary-alt{
-    background: #00bcd4;
+    background: #E8BC98;
 }
 .btnsecondary{
    background: #643094;
@@ -1596,10 +1601,12 @@ i::before,i::after{
 /*-------------------------------*/
       /*Revolution SLider*/
 /*-------------------------------*/
+
 #main-banner .fontbold {
    font-weight: 800;
 }
 .tp-bullet {
+   display: none;
    height: 15px;
    width: 15px;
    -webkit-border-radius: 50%;
@@ -1679,7 +1686,7 @@ i::before,i::after{
 .zeus.tparrows.tp-leftarrow::before {
    content: "\f104";
 }
-/*
+
 @media (max-width: 767px) {
    .rev_slider .button {
 	display: inline-block !important;
@@ -1689,7 +1696,7 @@ i::before,i::after{
       -o-transform: translateX(-50%) !important;
       transform: translateX(-50%) !important;
    }
-}*/
+}
 
 
 /*-------------------------------*/
