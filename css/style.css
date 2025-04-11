@@ -389,11 +389,6 @@ a.image{
    -webkit-border-radius: 50%;
    border-radius: 50%;
 }
-.tp-caption.tp-resizeme {
-    opacity: 1 !important;
-    visibility: visible !important;
-    z-index: 50 !important;
-}
 .back-top-visible {
    -webkit-transform: scale(1);
    -ms-transform: scale(1);
@@ -521,7 +516,7 @@ ul.social-icons.white li a:focus{
    border: 1px solid #fff;  
 }
 .btnwhite:hover, .btnwhite:focus{
-    background: #00bcd4;
+    background: #E8BC98;
 }
 
 .btnwhite-hole:hover, .btnwhite-hole:focus {
@@ -538,8 +533,8 @@ ul.social-icons.white li a:focus{
 }
 .btnprimary-alt:hover, .btnprimary-alt:focus {
    background: transparent;
-   border: 1px solid #00bcd4;
-   color: #00bcd4;
+   border: 1px solid #E8BC98;
+   color: #E8BC98;
 }
 .rev_slider .btnprimary-alt:hover, .rev_slider .btnprimary-alt:focus {
    background: transparent;
@@ -547,7 +542,7 @@ ul.social-icons.white li a:focus{
 }
 
 .btnsecondary:hover, .btnsecondary:focus {
-   background: #00bcd4;
+   background: #E8BC98;
    border: 1px solid #00bcd4;
 }
 .btnsecondary.hvrwhite:hover, .btnsecondary.hvrwhite:focus,
@@ -1601,7 +1596,6 @@ i::before,i::after{
 /*-------------------------------*/
       /*Revolution SLider*/
 /*-------------------------------*/
-
 #main-banner .fontbold {
    font-weight: 800;
 }
@@ -1686,7 +1680,7 @@ i::before,i::after{
 .zeus.tparrows.tp-leftarrow::before {
    content: "\f104";
 }
-
+/*
 @media (max-width: 767px) {
    .rev_slider .button {
 	display: inline-block !important;
@@ -1696,7 +1690,7 @@ i::before,i::after{
       -o-transform: translateX(-50%) !important;
       transform: translateX(-50%) !important;
    }
-}
+}*/
 
 
 /*-------------------------------*/
@@ -4158,6 +4152,7 @@ footer .copyrights > a:focus {
    }
    .heading-title > span{
       font-size: 1rem;
+  
    }
 }
 
@@ -4175,4 +4170,8 @@ html{
 
 .buttonBar {
     display: none;
+}
+.equalheight {
+max-height: 648px;
+object-fit: cover;
 }
