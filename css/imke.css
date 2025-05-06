@@ -1,8 +1,23 @@
 h1 {
     text-shadow: 2px 2px 2px #00000063;
+    color: #414141;
+  }
+  h2 {
+    text-shadow: 1px 1px 1px #273A1E;
+    color: #273A1E;
+    position: center;
+    
   }
 
+h4 {
+ color: #273A1E;
+
+}
 .nav-link {
   font-size: 1.3em !important;
-  text-shadow: 2px 2px 2px #00000063;
+  text-shadow: 1px 1px 1px #00000063;
+}
+
+.heading-title h2 {
+  color: #273A1E;
 }
