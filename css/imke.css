@@ -11,10 +11,12 @@ h1 {
 
 h4 {
  color: #273A1E;
+font-size: 3rem;
+font-weight: 700;
 
 }
 .nav-link {
-  font-size: 1.3em !important;
+  font-size: 1.3rem !important;
   text-shadow: 1px 1px 1px #00000063;
 }
 
