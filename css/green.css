@@ -15,7 +15,9 @@ p, .heading-title > span, .process-wrapp li > .pro-step,
 
 /* Helper Classes & Shorcodes */
 .bglight {
-    background: #f6f6f6;
+    background: #99c0f0;
+ 
+
 }
 .bgdefault {
     background: #273A1E;
@@ -117,8 +119,8 @@ ul.social-icons.white li a:focus{
 }
 .btnprimary:hover, .btnprimary:focus{
    
-   background: #DBD6C2;
-   border: 1px solid #DBD6C2;
+   background: #ceb18f;
+   border: 1px solid #ceb18f;
 }
 .btnprimary-alt:hover, .btnprimary-alt:focus {
    background: transparent;
@@ -210,6 +212,7 @@ ul.social-icons.white li a:focus{
 .fixedmenu .navbar-nav .nav-link.active:focus,
 .center-brand.fixedmenu .navbar-nav .nav-link.active{
    background: #DBD6C2;
+   ceb18f
    color: #fff;
 }
 .center-brand .navbar-nav .nav-link:first-of-type {
@@ -544,7 +547,7 @@ ul.social-icons.white li a:focus{
    background: #fff;
 }
 .gradient_text {
-   color: #00abc9;
+   color: #fff;
 }
 
 /*Single Porfolio*/

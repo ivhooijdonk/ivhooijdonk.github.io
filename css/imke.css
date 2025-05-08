@@ -23,3 +23,23 @@ font-weight: 700;
 .heading-title h2 {
   color: #273A1E;
 }
+
+.collapse navbar-collapse {
+  color: #ceb18f;
+}
+.heading_space {
+  color: #273A1E;
+}
+.image.top50 {
+height: 95%;
+width: 80%;
+margin: 0 auto; /* centreert de afbeelding in z'n kolom */
+display: flex;
+  align-items: center; /* verticaal centreren */
+  justify-content: center;
+}
+
+button {
+  margin-top: 1.5rem; /* i.p.v. bijv. 3rem */
+}
+
