@@ -537,10 +537,10 @@ ul.social-icons.white li a:focus{
 
 /*Overlays*/
 .overlay {
-   background: rgba(0, 207, 204, .9);
+   /* background: rgba(0, 207, 204, .9); */
 }
 .dark_overlay .overlay {
-   background: rgba(33,35,49, .9);
+   /* background: rgba(33,35,49, .9); */
 }
 .overlay > .plus::before,
 .overlay > .plus::after {
