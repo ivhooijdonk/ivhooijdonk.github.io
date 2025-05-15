@@ -6,8 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>XeOne | Work</title>
  <link href="images/favicon.png" rel="icon">
-<link rel="stylesheet" href="css/plugins.css">   
-<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/plugins.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/green.css">
+ <link rel="stylesheet" href="css/imke.css">
+
+
+
+ 
 
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar-nav">
@@ -46,6 +52,7 @@
          <a class="navbar-brand" href="index.html">
             <img src="images/nieuwlogo2.png" alt="logo">
             </a>
+    
          <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#xenav">
             <span> </span>
             <span> </span>
@@ -114,10 +121,10 @@
    </div>
    </nav>   
       <!--side menu open button-->
-      <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
+      <!-- <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
           <span></span> <span></span> <span></span>
        </a>
-   </nav>
+   </nav> -->
 
    <!-- side menu -->
    <div class="side-menu">
@@ -161,6 +168,31 @@
       </div>
    </div>
    <a id="close_side_menu" href="javascript:void(0);"></a>
+   <style>
+      .nav-link {
+          position: relative;
+          z-index: 1;
+      }
+      
+      .nav-link::before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%) scale(0);
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: rgba(255,255,255,0.1);
+          z-index: -1;
+          transition: transform 0.3s ease;
+      }
+      
+      .nav-link:hover::before {
+          transform: translate(-50%, -50%) scale(1);
+      }
+      </style>
+      
    <!-- End side menu -->
 </header>
 <!-- header -->   
@@ -334,14 +366,15 @@
 
 
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/bootstrap.min.js"></script>
+
 <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
 <script src="js/jquery-3.1.1.min.js"></script>
 
 <!--Bootstrap Core-->
 <script src="js/popper.min.js"></script>
 
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
 
 <!--to view items on reach-->
 <script src="js/jquery.appear.js"></script>

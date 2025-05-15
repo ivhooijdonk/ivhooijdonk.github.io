@@ -30,16 +30,58 @@ font-weight: 700;
 .heading_space {
   color: #273A1E;
 }
-.image.top50 {
-height: 95%;
-width: 80%;
-margin: 0 auto; /* centreert de afbeelding in z'n kolom */
-display: flex;
-  align-items: center; /* verticaal centreren */
-  justify-content: center;
+/* navbar aanpassen */
+  
+/* Basisstijl voor navbar links */
+.navbar-nav .nav-link {
+  /* color: #273A1E !important; */
+  border: 1px solid #273A1E !important;
+  background: #fff !important;
+  border-radius: 20px;
+  padding: 5px 18px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
-button {
-  margin-top: 1.5rem; /* i.p.v. bijv. 3rem */
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  background: #E8BC98 !important;
+  color: #fff !important;
+  border-color: #E8BC98 !important;
+}
+
+/* Actieve link (bijvoorbeeld handmatig met JavaScript of server-side toegekend) */
+.navbar-nav .nav-link.active {
+  background: #E8BC98 !important;
+  color: #fff !important;
+  border-color: #E8BC98 !important;
+}
+/* BEGINSTAND - GEEN rand, GEEN achtergrond */
+.navbar-nav .nav-link {
+  /* color: #273A1E !important; */
+  border: none !important;
+  background: transparent !important;
+  border-radius: 20px;
+  padding: 5px 18px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* HOVER - bolletje verschijnt */
+.navbar-nav .nav-link:hover {
+  background: #E8BC98 !important;
+  color: #fff !important;
+  border: 1px solid #E8BC98 !important;
+}
+
+/* ACTIEF - bolletje zichtbaar */
+.navbar-nav .nav-link.active {
+  background: #E8BC98 !important;
+  color: #fff !important;
+  border: 1px solid #E8BC98 !important;
 }
 
