@@ -8,6 +8,9 @@ h1 {
     position: center;
     
   }
+  h3 {
+    color: white;
+  }
 
 h4 {
  color: #273A1E;
@@ -20,9 +23,9 @@ font-weight: 700;
   text-shadow: 1px 1px 1px #00000063;
 }
 
-.heading-title h2 {
+/* .heading-title h2 {
   color: #273A1E;
-}
+} */
 
 .collapse navbar-collapse {
   color: #ceb18f;

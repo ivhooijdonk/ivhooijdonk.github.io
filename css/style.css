@@ -2328,7 +2328,8 @@ i::before,i::after{
   bottom: 5px;
 }
 .overlay p {
-   font-size: 13px;
+   font-size: 17px;
+   color: darkgreen;
 }
 .gradient_text {
 	background: -webkit-gradient(linear,left top, right top,from(#00e3ce) , to(#00abc9));
