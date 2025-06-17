@@ -833,7 +833,7 @@ i::before,i::after{
    font-weight: 500;
    text-transform: capitalize;
    font-size: 14px;
-   /* color: #414141; */
+   color: #414141;
    position: relative;
    -webkit-border-radius: 20px;
    border-radius: 20px;
@@ -853,7 +853,7 @@ i::before,i::after{
 .fixed-bottom .navbar-nav .nav-link{
    color: #fff;
 }
-.center-brand.fixedmenu .navbar-nav .nav-link {
+.center-brand.fixe dmenu .navbar-nav .nav-link {
    color: #414141;
 }
 .navbar-nav .nav-link:hover,
