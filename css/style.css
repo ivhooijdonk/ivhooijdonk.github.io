@@ -2190,10 +2190,10 @@ i::before,i::after{
 .cbp-l-filters .cbp-filter-item {
    cursor: pointer;
    margin: 0 .2rem;
-   display: inline-block;
+   display: inline-block;;
 }
 .cbp-l-filters .cbp-filter-item span {
-   color: #fccda4;
+   color: #273A1E;
    display: inline-block;
    font-size: 14px;
    font-weight: bold;
@@ -2202,7 +2202,7 @@ i::before,i::after{
    padding: 5px 1.125rem;
    -webkit-border-radius: 20px;
    border-radius: 20px;
-   border: 1px solid #fccda4;
+   border: 1px solid #273A1E;
 }
 .cbp-l-filters .cbp-filter-item-active {
    cursor: default;
@@ -2248,7 +2248,7 @@ i::before,i::after{
    padding-top: 5px;
 }
 .border-portfolio .cbp-item img {
-   border: 20px solid #fccda4;
+   border: 20px solidsz;
 }
 .bottom-text {
    display: table;
@@ -2269,7 +2269,7 @@ i::before,i::after{
    font-family: 'Open Sans', sans-serif;
 }
 
-/*Overlays*/
+Overlays
 .overlay {
    position: absolute;
    left: 20px; top: 20px;
